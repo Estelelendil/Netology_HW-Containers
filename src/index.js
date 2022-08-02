@@ -13,4 +13,4 @@ const persZombie = new Zombie('Will');
 const akunaMatata = new Team();
 akunaMatata.add(persBowman);
 akunaMatata.add(persDaemon, persSwordsman, persMagician, persUndead, persZombie);
-console.log(AkunaMatata);
+console.log(AkunaMatata.toArray());
