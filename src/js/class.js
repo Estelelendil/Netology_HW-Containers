@@ -87,7 +87,3 @@ export class Daemon extends Character {
     this.defence = 40;
   }
 }
-
-const pers = new Daemon('Larry');
-pers.levelUp();
-console.log(pers);

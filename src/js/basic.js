@@ -1,10 +1,10 @@
-import Character, {
-  Swordsman, Bowman, Magician, Daemon, Undead, Zombie,
-} from './class';
+// import Character, {
+//   Swordsman, Bowman, Magician, Daemon, Undead, Zombie,
+// } from './class';
 
 class Team {
-  constructor(...members) {
-    this.members = new Set(...members);
+  constructor() {
+    this.members = new Set();
   }
 
   add(member) {
@@ -27,3 +27,5 @@ class Team {
     return Array.from(this.members);
   }
 }
+
+export default Team;

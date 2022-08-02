@@ -1,7 +1,6 @@
 import Character, {
   Swordsman, Bowman, Magician, Daemon, Undead, Zombie,
 } from '../class';
-//   import persons from '../../index';
 
 test('testing functiom levelUp', () => {
   const pers = new Daemon('Larry');
